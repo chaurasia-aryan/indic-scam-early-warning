@@ -1,0 +1,31 @@
+{
+ "subreddits": {
+  "IndiaTech": {
+   "scanned_through": "2025-06-17",
+   "posts_scanned": 56000,
+   "keyword_matched": 1625
+  },
+  "IndianStockMarket": {
+   "scanned_through": "2024-10-13",
+   "posts_scanned": 56000,
+   "keyword_matched": 1137
+  },
+  "india": {
+   "scanned_through": "2023-10-10",
+   "posts_scanned": 56000,
+   "keyword_matched": 1701
+  },
+  "mumbai": {
+   "scanned_through": "2024-08-10",
+   "posts_scanned": 58000,
+   "keyword_matched": 1542
+  }
+ },
+ "posts_scanned_total": 226000,
+ "keyword_matched_total": 6005,
+ "review_candidates": 243,
+ "judged_verbatim_scam_utterances": 12,
+ "judged_with_devanagari": 0,
+ "judged_multi_turn": 0,
+ "judged_benign_counterparts": 0
+}

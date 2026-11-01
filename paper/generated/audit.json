@@ -1,0 +1,91 @@
+{
+ "dup": {
+  "H10k": {
+   "n": 10000,
+   "exact_unique": 743,
+   "exact_dup": 0.9257,
+   "masked_unique": 743,
+   "masked_unique_frac": 0.0743
+  },
+  "Ham14": {
+   "n": 14000,
+   "exact_unique": 12889,
+   "exact_dup": 0.0793571428571429,
+   "masked_unique": 5461,
+   "masked_unique_frac": 0.39007142857142857
+  },
+  "Ham14test": {
+   "n": 1400,
+   "exact_unique": 1399,
+   "exact_dup": 0.0007142857142856673,
+   "masked_unique": 1399,
+   "masked_unique_frac": 0.9992857142857143
+  }
+ },
+ "ham14_test_vs_train": {
+  "exact_overlap": 0.0,
+  "masked_overlap": 0.0,
+  "nn_cos_ge_0.9": {
+   "frac_ge_thr": 0.0007142857142857143,
+   "median_sim": 0.19028286387131477
+  }
+ },
+ "cv_auc": {
+  "H10k": {
+   "random_5fold": 1.0,
+   "template_grouped_5fold": 1.0
+  },
+  "Ham14": {
+   "random_5fold": 0.9999998979591838,
+   "template_grouped_5fold": 0.9989067346938776
+  }
+ },
+ "ham14_per_language_masked_unique": {
+  "Assamese": 40,
+  "Bengali": 823,
+  "English": 621,
+  "Gujarati": 599,
+  "Hindi": 594,
+  "Hinglish": 808,
+  "Kannada": 40,
+  "Kashmiri": 583,
+  "Malayalam": 40,
+  "Marathi": 596,
+  "Odia": 44,
+  "Punjabi": 595,
+  "Tamil": 38,
+  "Telugu": 40
+ },
+ "h10k_top_text_counts": [
+  60,
+  60,
+  60,
+  59,
+  59
+ ],
+ "shortcut_H10k": {
+  "length_digits_url_only_auc": 0.98426608,
+  "urgency_level_only_auc": 1.0,
+  "first_word_only_auc": 0.6649912599999999
+ },
+ "shortcut_Ham14": {
+  "Assamese": 0.58397,
+  "Bengali": 1.0,
+  "English": 0.9984099999999999,
+  "Gujarati": 0.9870840000000001,
+  "Hindi": 0.9965360000000001,
+  "Hinglish": 1.0,
+  "Kannada": 0.789924,
+  "Kashmiri": 0.9885879999999999,
+  "Malayalam": 0.865548,
+  "Marathi": 0.987716,
+  "Odia": 1.0,
+  "Punjabi": 0.9873080000000001,
+  "Tamil": 1.0,
+  "Telugu": 0.862382
+ },
+ "transfer_hinglish": {
+  "H10k->Ham14Hinglish": 0.951272,
+  "Ham14Hinglish->H10k": 0.98400428
+ }
+}

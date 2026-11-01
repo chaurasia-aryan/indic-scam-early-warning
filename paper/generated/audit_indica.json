@@ -1,0 +1,49 @@
+{
+ "languages": [
+  "assamese",
+  "bengali",
+  "english",
+  "gujarati",
+  "hindi",
+  "kannada",
+  "malayalam",
+  "odia",
+  "tamil",
+  "telugu"
+ ],
+ "files_per_language": {
+  "assamese": 18974,
+  "bengali": 18974,
+  "english": 18974,
+  "gujarati": 18974,
+  "hindi": 18974,
+  "kannada": 18974,
+  "malayalam": 18974,
+  "odia": 18974,
+  "tamil": 18974,
+  "telugu": 18974
+ },
+ "distinct_ids_per_language": {
+  "assamese": 9487,
+  "bengali": 9487,
+  "english": 9487,
+  "gujarati": 9487,
+  "hindi": 9487,
+  "kannada": 9487,
+  "malayalam": 9487,
+  "odia": 9487,
+  "tamil": 9487,
+  "telugu": 9487
+ },
+ "ids_present_in_all_languages": 9487,
+ "ids_with_identical_label_in_all_languages": 9487,
+ "english_context_markers": {
+  "files": 18974,
+  "china_marker": 8046,
+  "india_marker": 0,
+  "both": 0,
+  "china_frac": 0.4240539685885949,
+  "india_frac": 0.0
+ },
+ "source_corpus_in_filenames": 1.0
+}

@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+# raw donated material must never be committed
+data/raw/
+*.png
+*.jpg
+*.jpeg
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+data/raw_scrape/
+data/public/
+data/enc_out/
+data/raw_scrape/
+data/modal_*.log
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out

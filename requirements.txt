@@ -1,0 +1,10 @@
+numpy
+scikit-learn
+matplotlib
+# experiments only (GPU):
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+datasets
